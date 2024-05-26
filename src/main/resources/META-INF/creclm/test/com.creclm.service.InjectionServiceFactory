@@ -1,0 +1,5 @@
+# 自定义的
+adapter = com.creclm.adapter.InjectionAdapter
+spi = com.creclm.adapter.impl.SpiInjectionFactory
+spring = com.creclm.adapter.impl.SpringInjectionFactory
+dubbo = com.creclm.adapter.impl.DubboInjectionFactory
